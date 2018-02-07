@@ -11,4 +11,4 @@ before_install:
   - docker pull ponylang/ponyc
 
 script:
-  - docker run -v ${TRAVIS_BUILD_DIR}:/src/main ponylang/ponyc ./main
+  - docker run -v ${TRAVIS_BUILD_DIR}:/src/main ponylang/ponyc && ./main
