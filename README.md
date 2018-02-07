@@ -1,4 +1,4 @@
-# Colorful logger presets
+# Colorful Logger Presets
 
 [![Build Status](https://travis-ci.org/Sleeplessy/pony-colorfylog.svg?branch=master)](https://travis-ci.org/Sleeplessy/pony-colorfylog)
 
