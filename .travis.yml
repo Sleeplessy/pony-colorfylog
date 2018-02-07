@@ -3,8 +3,14 @@ sudo: required
 services:
   - docker
 
+matrix:
+  include:
+    - os: linux
+
+    - os: osx
+
 before_install:
   - docker pull ponylang/ponyc
 
 script:
-  - docker run -v .:/src/main ponylang/ponyc ./main
+  - docker run -v "../pony-colorfylog":/src/main ponylang/ponyc ./main
