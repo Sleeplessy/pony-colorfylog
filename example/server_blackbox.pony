@@ -1,5 +1,5 @@
 use "logger"
-use ".."
+use "colorfylog"
 
 actor Main
   new create(env: Env) =>
