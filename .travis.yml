@@ -7,8 +7,6 @@ matrix:
   include:
     - os: linux
 
-    - os: osx
-
 before_install:
   - docker pull ponylang/ponyc
 
