@@ -50,6 +50,8 @@ actor _TestStream is OutStream
     let s: String = _output.clone()
     _promise(s)
 
+  be flush() => None
+
 class iso _TestLogLevelString is _StringGenTest
   fun name(): String => "ColorfyLog/LogLevelString"
 
